@@ -1,0 +1,29 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-gap: 5px;
+  height: 100vh;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(4, 100px);
+
+  /* justify-items: start end center stretch;
+  align-items: start end center stretch; */
+  /* justify-items: center ;
+  align-items: center; */
+  justify-content: center;
+  align-content: center;
+}
+.item{
+  background-color: #2196F3;
+  padding: 10px;
+  border: 1px solid  rgba(255, 255, 255, 0.8);
+}
+
+.item:nth-of-type(5){
+  /* align-self: start;
+  justify-self: start; */
+}
+
